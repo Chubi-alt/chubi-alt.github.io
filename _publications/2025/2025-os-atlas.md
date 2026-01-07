@@ -1,8 +1,8 @@
 ---
 title:          "OS-ATLAS: A Foundation Action Model For Generalist GUI Agents"
-date:           2024-10-30
+date:           2025-1-30
 selected:       true
-pub:            '<span class="badge badge-pill badge-primary">ICLR 2025</span>'
+pub:            '<span class="badge badge-pill badge-primary badge-publication">ICLR 2025</span>'
 pub_last:       '<span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       ""
 abstract: >-

@@ -1,26 +1,22 @@
 ---
-title:          "OS-ATLAS: A Foundation Action Model For Generalist GUI Agents"
-date:           2024-10-30
+title:          "Point Mamba: A Novel Point Cloud Backbone Based on State Space Model with Octree-Based Ordering Strategy"
+date:           2024-5-11
 selected:       true
-pub:            '<span class="badge badge-pill badge-primary">ICLR 2025</span>'
-pub_last:       '<span class="badge badge-pill badge-publication badge-success">ICLR 2025</span> <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub:            "Preprint"
+# pub_last:       '<span class="badge badge-pill badge-publication badge-success">ICLR 2025</span> <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       ""
 abstract: >-
-  Existing efforts in building GUI agents heavily rely on the availability of robust commercial Vision-Language Models (VLMs) such as GPT-4o and GeminiProVision. Practitioners are often reluctant to use open-source VLMs due to their significant performance lag compared to their closed-source counterparts, particularly in GUI grounding and Out-Of-Distribution (OOD) scenarios. To facilitate future research in this area, we developed OS-Atlas —a foundational GUI action model that excels at GUI grounding and OOD agentic tasks through innovations in both data and modeling. We have invested significant engineering effort in developing an open-source toolkit for synthesizing GUI grounding data across multiple platforms, including Windows, Linux, MacOS, Android, and the web. Leveraging this toolkit, we are releasing the largest open-source cross-platform GUI grounding corpus to date, which contains over 13 million GUI elements. This dataset, combined with innovations in model training, provides a solid foundation for OS-Atlas to understand GUI screenshots and generalize to unseen interfaces. Through extensive evaluation across six benchmarks spanning three different platforms (mobile, desktop, and web), OS-Atlas demonstrates significant performance improvements over previous state-of-the-art models. Our evaluation also uncovers valuable insights into continuously improving and scaling the agentic capabilities of open-source VLMs.
-cover:          /assets/images/covers/cover1.jpg
+  Recently, state space model (SSM) has gained great attention due to its promising performance, linear complexity, and long sequence modeling ability in both language and image domains. However, it is non-trivial to extend SSM to the point cloud field, because of the causality requirement of SSM and the disorder and irregularity nature of point clouds. In this paper, we propose a novel SSM-based point cloud processing backbone, named Point Mamba, with a causality-aware ordering mechanism. To construct the causal dependency relationship, we design an octree-based ordering strategy on raw irregular points, globally sorting points in a z-order sequence and also retaining their spatial proximity. Our method achieves state-of-the-art performance compared with transformer-based counterparts, with 93.4% accuracy and 75.7 mIOU respectively on the ModelNet40 classification dataset and ScanNet semantic segmentation dataset. Furthermore, our Point Mamba has linear complexity, which is more efficient than transformer-based methods. Our method demonstrates the great potential that SSM can serve as a generic backbone in point cloud understanding.
+cover:          /assets/images/covers/cover3.jpg
 authors:
-- Zhiyong Wu* 
-- Zhenyu Wu* 
-- Fangzhi Xu* 
-- Yian Wang* 
-- Qiushi Sun 
-- Chengyou Jia 
-- Kanzhi Cheng
-- Zichen Ding 
-- Liheng Chen 
-- Yu Qiao 
+- Jiuming Liu*
+- Ruiji Yu*
+- Yian Wang
+- Yu Zheng
+- Tianchen Deng
+- Weicai Ye
+- Hesheng Wang
 links:
-  Website: https://osatlas.github.io/
-  Paper: https://arxiv.org/abs/2410.23218
-  Code: https://github.com/OS-Copilot/OS-Atlas
+  Paper: https://arxiv.org/abs/2403.06467
+  Code:  https://github.com/IRMVLab/Point-Mamba
 ---
