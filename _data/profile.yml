@@ -4,14 +4,15 @@ navbar_name: "Ian Wang"
 
 positions:
 - name: Master of Computing (CS Specialization), NUS
+  logo: /assets/images/badges/NUS_logo_full-vertical.jpg
 - name: 
   logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
 email: "e1538654@u.nus.edu"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
+gscholar: XVKNdMsAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: Chubi-alt
 twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
