@@ -23,10 +23,9 @@ linkedin: yian-wang-62151437b
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a master student at the National University of Singapore (NUS), pursuing a Master of Computing in Computer Science. Previously, I earned my Bachelor of Engineering in Artificial Intelligence from Shanghai Jiao Tong University (SJTU)
-    My research interests primarily focus on Multimodal LLMs, Generalist GUI Agents, and Autonomous Driving.
+    I am a master student at the National University of Singapore (NUS), pursuing a Master of Computing in Computer Science. Previously, I earned my Bachelor of Engineering in Artificial Intelligence from Shanghai Jiao Tong University (SJTU).
+    My research interests primarily focus on Multimodal LLMs, Generalist GUI Agents, and Autonomous Driving.<br/>
     Currently, I am highly motivated and actively seeking PhD opportunities for the upcoming intake, and I am eager to contribute to cutting-edge research in these fields.
-    Outside of my academic pursuits, I am a passionate foodie🍔 and an avid gamer🎮.
   </p>
 
 portrait_url: /assets/images/badges/me.jpg
@@ -41,7 +40,7 @@ education:
     School of Computing 
   date: Aug. 2025 - present
 - name: Shanghai Jiao Tong University
-  logo: assets/images/badges/sjtu_logo.png
+  logo: assets/images/badges/sjtulogo.png
   position: B.S. in Artificial Intelligence <br/>
             School of Electronic Information and Electrical Engineering
   date: Sep. 2021 - Jul. 2025
@@ -52,7 +51,7 @@ experience:
   position: Multimodal LLM Algorithm Intern
   date: May. 2023 - Jul. 2025
 - name: Shanghai Jiao Tong University
-  logo: /assets/images/badges/sjtu_logo.png
+  logo: /assets/images/badges/sjtulogo.png
   position: Undergraduate Research Intern
   date: May. 2023 - Jul. 2025
 # awards:
