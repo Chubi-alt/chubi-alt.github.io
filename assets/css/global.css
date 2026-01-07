@@ -87,6 +87,11 @@ div.lazy {
     font-size: 100%;
 }
 
+.abstract-links .github-button {
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
 .email-text {
     font-family: Source Code Pro, monospace;
 }
