@@ -47,9 +47,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .inline-badge {
-    height: 16px;
-    vertical-align: -10%;
-    margin-right: 2px;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 6px;
     line-break: unset;
 }
 
@@ -89,4 +90,3 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
-

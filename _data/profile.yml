@@ -1,19 +1,19 @@
-primary_name: "Ian Wang"
+primary_name: "Ien Wang"
 secondary_name: ""
-navbar_name: "Ian Wang"
+navbar_name: "Ien Wang"
 
 positions:
 - name: Master of Computing (CS Specialization), NUS
-  logo: /assets/images/badges/NUS_logo_full-vertical.jpg
+  logo: /assets/images/badges/nus_logo.png
 - name: 
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+  logo:  # Logo is optional
 
 
 email: "e1538654@u.nus.edu"
 # cv_link: link-to-your-cv-file
 gscholar: XVKNdMsAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: Chubi-alt
-linkedin: your-linkedin-id
+linkedin: yian-wang-62151437b
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
@@ -36,27 +36,31 @@ portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: National University of Singapore
+  logo: /assets/images/badges/nus_logo.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+    Master Student <br/>
+    School of Computing 
+  date: Aug. 2025 - present
+- name: Shanghai Jiao Tong University
+  logo: assets/images/badges/sjtu_logo.png
+  position: B.S. in Artificial Intelligence <br/>
+            School of Electronic Information and Electrical Engineering
+  date: Sep. 2021 - Jul. 2025
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
-
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+experience:
+- name: Shanghai Artificial Intelligence Laboratory
+  logo: /assets/images/badges/ailab_logo.png
+  position: Multimodal LLM Algorithm Intern
+  date: May. 2023 - Jul. 2025
+- name: Shanghai Jiao Tong University
+  logo: /assets/images/badges/sjtu_logo.png
+  position: Undergraduate Research Intern
+  date: May. 2023 - Jul. 2025
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
