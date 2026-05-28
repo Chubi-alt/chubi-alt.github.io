@@ -29,9 +29,10 @@ short_bio: >-
     from <strong>Shanghai Jiao Tong University (SJTU)</strong>.
   </p>
   <p>
-    My research interests primarily focus on 
-    <strong>Multimodal LLMs</strong>, <strong>Generalist GUI Agents</strong>, 
-    and <strong>Autonomous Driving</strong>.
+    My research centers on building <strong>agents that operate in digital worlds</strong>. 
+    I am particularly interested in developing <strong>LLM agents</strong> for complex real-world tasks 
+    — especially <strong>Computer-Using Agents (CUAs)</strong> — and improving their long-horizon 
+    problem-solving via scalable environments, synthetic data, and tool-augmented learning.
   </p>
   <p>
     Currently, I am actively seeking <strong>PhD opportunities</strong> for 
@@ -60,11 +61,15 @@ experience:
 - name: kuaishou
   logo: /assets/images/badges/kuaishou_logo.png
   position: Multimodal Generation Group Intern
-  date: Mar. 2025 - present
+  date: Mar. 2026 - present
 - name: NExT++ Lab, National University of Singapore
   logo: /assets/images/badges/NExT++_edited.png
   position: Research Intern
-  date: Mar. 2025 - present
+  date: Mar. 2026 - present
+- name: University of Hong Kong
+  logo: /assets/images/badges/hku.png
+  position: Research Intern
+  date: Dec. 2025 - May. 2026
 - name: Shanghai Artificial Intelligence Laboratory
   logo: /assets/images/badges/ailab_logo.jpeg
   position: Multimodal LLM Algorithm Intern
