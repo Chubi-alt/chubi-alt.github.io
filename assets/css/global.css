@@ -1,25 +1,44 @@
 @charset "utf-8";
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    color: #2c3e50;
+    line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
+    color: #1a252f;
+}
+
+a {
+    color: #2980b9;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #1a5276;
+    text-decoration: none;
 }
 
 .card {
-    border-radius: 0.8rem!important;
+    border-radius: 0.8rem !important;
+    transition: box-shadow 0.25s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1) !important;
 }
 
 .card-img-overlay {
-    border-radius: 0.8rem!important;
+    border-radius: 0.8rem !important;
 }
 
 .rounded-xl {
-    border-radius: 0.8rem!important;
+    border-radius: 0.8rem !important;
 }
 
 .rounded-xl-bottom {
@@ -32,18 +51,35 @@ h1, h2, h3, h4, h5, h6,
     border-top-right-radius: 0.8rem !important;
 }
 
-
 .text-profile-position {
     font-weight: 400;
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
+    line-height: 1.8;
+    color: #3d4f5f;
 }
 
 .navbar {
-    opacity: 0.95;
+    opacity: 0.97;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    letter-spacing: 0.02em;
+}
+
+.navbar-brand strong {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.navbar .nav-link {
+    transition: opacity 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+    opacity: 0.85;
 }
 
 .inline-badge {
@@ -87,11 +123,91 @@ div.lazy {
     font-size: 100%;
 }
 
-.abstract-links .github-button {
-    vertical-align: middle;
-    margin-left: 6px;
+.abstract-links a {
+    color: #2980b9;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    margin-right: 2px;
+}
+
+.abstract-links a:hover {
+    color: #1a5276;
 }
 
 .email-text {
     font-family: Source Code Pro, monospace;
+    font-size: 0.85em;
+}
+
+/* Profile card social icons */
+.card-body .h4 a {
+    color: #4a5568;
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.card-body .h4 a:hover {
+    color: #2980b9;
+    transform: translateY(-1px);
+}
+
+/* Experience / education item spacing */
+.media-body {
+    line-height: 1.5;
+}
+
+/* Publication item hover */
+.row.no-gutters.border-bottom {
+    transition: background-color 0.2s ease;
+}
+
+.row.no-gutters.border-bottom:hover {
+    background-color: rgba(41, 128, 185, 0.02);
+}
+
+/* Publication title */
+.row.no-gutters h5 {
+    color: #1a252f;
+    line-height: 1.45;
+}
+
+/* Year headings on publications page */
+h2.pt-4 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+/* Footer */
+footer.footer {
+    color: #718096;
+}
+
+/* Scrollspy nav pills for year sidebar */
+#navbar-year .nav-link {
+    color: #718096;
+    font-size: 0.9rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 0.4rem;
+    transition: all 0.2s ease;
+}
+
+#navbar-year .nav-link.active {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+/* Figure / portrait */
+.figure img {
+    border-radius: 0.6rem;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+    background-color: rgba(41, 128, 185, 0.2);
 }
