@@ -102,9 +102,17 @@ html {
 
 .text-profile-bio {
     font-weight: 400;
-    line-height: 1.85;
+    line-height: 1.75;
     color: #3d4f5f;
     font-size: 0.95rem;
+}
+
+.text-profile-bio p {
+    margin-bottom: 0.6rem;
+}
+
+.text-profile-bio p:last-child {
+    margin-bottom: 0;
 }
 
 .profile-name {
