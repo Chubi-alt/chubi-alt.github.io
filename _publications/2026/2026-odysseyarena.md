@@ -29,4 +29,5 @@ authors:
 - Qika Lin
 links:
   Paper: https://arxiv.org/abs/2602.05843
+  Code: https://github.com/xufangzhi/Odyssey-Arena
 ---
