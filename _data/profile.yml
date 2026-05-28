@@ -25,7 +25,7 @@ short_bio: >-
   <p>
     I am a master student at the National University of Singapore (NUS), pursuing a Master of Computing in Computer Science. Previously, I earned my Bachelor of Engineering in Artificial Intelligence from Shanghai Jiao Tong University (SJTU).
     My research interests primarily focus on Multimodal LLMs, Generalist GUI Agents, and Autonomous Driving.<br/>
-    Currently, I am highly motivated and actively seeking PhD opportunities for the upcoming intake (27Spring), and I am eager to contribute to cutting-edge research in these fields.
+    Currently, I am highly motivated and actively seeking PhD opportunities for the upcoming intake (27 Spring & 27 Fall), and I am eager to contribute to cutting-edge research in these fields.
   </p>
 
 portrait_url: /assets/images/badges/me.jpg
@@ -51,7 +51,7 @@ experience:
   position: Multimodal Generation and Interaction Group Intern
   date: Mar. 2025 - present
 - name: NExT++ Lab, National University of Singapore
-  logo: /assets/images/badges/NExT%2B%2B_edited.avif
+  logo: /assets/images/badges/NExT%2B%2B_edited.avif  
   position: Research Intern
   date: Mar. 2025 - present
 - name: Shanghai Artificial Intelligence Laboratory
