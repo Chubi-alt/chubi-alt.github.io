@@ -229,23 +229,9 @@ div.lazy {
     letter-spacing: 0.02em;
 }
 
-/* Abstract text with max-height fade */
+/* Abstract text */
 .pub-abstract {
-    max-height: 4.2em;
-    overflow: hidden;
-    position: relative;
     line-height: 1.4;
-}
-
-.pub-abstract::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 1.4em;
-    background: linear-gradient(transparent, white);
-    pointer-events: none;
 }
 
 /* Publication link pills */
