@@ -229,11 +229,6 @@ div.lazy {
     letter-spacing: 0.02em;
 }
 
-/* Abstract text */
-.pub-abstract {
-    line-height: 1.4;
-}
-
 /* Publication link pills */
 .abstract-links a {
     display: inline-block;
