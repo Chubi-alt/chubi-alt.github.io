@@ -58,18 +58,14 @@ education:
   date: Sep. 2021 - Jul. 2025
 
 experience:
-- name: kuaishou
-  logo: /assets/images/badges/kuaishou_logo.png
-  position: Multimodal Generation Group Intern
-  date: Mar. 2026 - present
-- name: NExT++ Lab, National University of Singapore
-  logo: /assets/images/badges/NExT++_edited.png
-  position: Research Intern
-  date: Mar. 2026 - present
 - name: University of Hong Kong
   logo: /assets/images/badges/hku.png
   position: Research Assistant
   date: Jul. 2026 - present
+- name: NExT++ Lab, National University of Singapore
+  logo: /assets/images/badges/NExT++_edited.png
+  position: Research Intern
+  date: Mar. 2026 - present
 - name: Shanghai Artificial Intelligence Laboratory
   logo: /assets/images/badges/ailab_logo.jpeg
   position: Multimodal LLM Algorithm Intern
@@ -78,6 +74,10 @@ experience:
   logo: /assets/images/badges/sjtulogo.png
   position: Undergraduate Research Intern
   date: May. 2023 - Jul. 2025
+# - name: kuaishou
+#   logo: /assets/images/badges/kuaishou_logo.png
+#   position: Multimodal Generation Group Intern
+#   date: Mar. 2026 - present
 # awards:
 # - name: Award Name 2
 #   date: 2024
